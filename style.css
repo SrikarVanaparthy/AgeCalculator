@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 0 0 15px rgb(192, 54, 54);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10%;
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px; 
+    text-align: center;
+    
+}
+
+.dob {
+    display: flex;
+    justify-content: space-evenly;
+    gap:10px;
+    margin-bottom: 30px; 
+    width: 100%;
+}
+
+.dob-grp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#date, #mon, #year {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+#date:hover, #mon:hover, #year:hover {
+    border-color: rgb(79, 29, 126);
+}
+
+label {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: center;
+    margin-bottom: 5px;
+    width: 57.79px;
+    height: 22.69px;
+}
+
+input[type="number"] {
+    font-size: 15px;
+}
+
+#btn {
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    height: 55px;
+    width: 220px;
+    text-align: center;
+    background-color: rgb(0, 123, 255);
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgb(0, 102, 204);
+}
+
+#result {
+    font-size: 25px;
+    text-align: center; 
+    margin-top: 20px;
+    color: #d8198c;
+    
+}
+
+#errormsg{
+    font-size: 25px;
+    color: red;
+    margin-top: 20px;
+    
+}
